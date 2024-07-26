@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -134,15 +135,16 @@
 									<div class="fields">
 										<div class="field half">
 											<input type="hidden" name="access_key" value="af7df373-7712-4f46-a0a4-31ac513202f5">
-											<input type="text" name="name" id="name" placeholder="Votre nom" required/>
+											<input type="text" name="name" id="name" placeholder="Votre Nom" required/>
 										</div>
 										<div class="field half">
 											<input type="email" name="email" id="email" placeholder="Votre E-mail" required/>
 										</div>
 										<div class="field">
-											<textarea name="message" id="message" placeholder="Votre Message"></textarea>
+											<textarea name="message" id="message" placeholder="Votre Message" required></textarea>
 											<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 										</div>
+										<div class="g-recaptcha" data-sitekey="6LdtQxkqAAAAAHAaExcUV7bhO1N8t8z1ozaMHUhm"></div>
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Envoyer" class="primary" /></li>
