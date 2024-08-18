@@ -1,0 +1,5 @@
+[redirects]]
+from = "http://www.gdafrica.com/*"
+to = "https://www.gdafrica.com/:splat"
+status = 301
+force = true
