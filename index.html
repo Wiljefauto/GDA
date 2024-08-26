@@ -136,7 +136,7 @@
 						<div class="inner">
 							<section>
 								<h2>Nous Contacter</h2>
-								<form name="contact" netlify>
+								<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
 									<div class="fields">
 										<div class="field half">
 											<!--<input type="hidden" name="access_key" value="af7df373-7712-4f46-a0a4-31ac513202f5">-->
@@ -149,7 +149,7 @@
 											<textarea name="message" id="message" placeholder="Votre Message" required></textarea>
 											<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 										</div>
-										<!--<div class="g-recaptcha" data-sitekey="6LdtQxkqAAAAAHAaExcUV7bhO1N8t8z1ozaMHUhm"></div> -->
+										<div data-netlify-recaptcha="true"></div>
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Envoyer" class="primary" /></li>
