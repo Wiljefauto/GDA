@@ -13,8 +13,8 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 		<link rel="manifest" href="images/site.webmanifest">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<!--<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -136,10 +136,10 @@
 						<div class="inner">
 							<section>
 								<h2>Nous Contacter</h2>
-								<form action="https://api.web3forms.com/submit" method="POST" class="actions">
+								<form name="contact" netlify>
 									<div class="fields">
 										<div class="field half">
-											<input type="hidden" name="access_key" value="af7df373-7712-4f46-a0a4-31ac513202f5">
+											<!--<input type="hidden" name="access_key" value="af7df373-7712-4f46-a0a4-31ac513202f5">-->
 											<input type="text" name="name" id="name" placeholder="Votre Nom" required/>
 										</div>
 										<div class="field half">
@@ -149,7 +149,7 @@
 											<textarea name="message" id="message" placeholder="Votre Message" required></textarea>
 											<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 										</div>
-										<div class="g-recaptcha" data-sitekey="6LdtQxkqAAAAAHAaExcUV7bhO1N8t8z1ozaMHUhm"></div>
+										<!--<div class="g-recaptcha" data-sitekey="6LdtQxkqAAAAAHAaExcUV7bhO1N8t8z1ozaMHUhm"></div> -->
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Envoyer" class="primary" /></li>
