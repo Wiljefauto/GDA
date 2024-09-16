@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap:
-https://www.gdafrica.com/sitemap.xml
+Sitemap: https://www.gdafrica.com/sitemap.xml
