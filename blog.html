@@ -2,11 +2,13 @@
 <!--
 	Adapted from Phantom by HTML5 UP modified by Wiljef
 -->
-<html>
+<html lang="fr">
 	<head>
 		<title>Blog - Groupe Debout Afrique</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta content="Découvrez les dernières actualités du Groupe Debout Afrique. Vous trouverez sur cette page l'ensemble des publications sur les différents services et programmes de GDAfrica." name="description">
+		<meta content="Groupe Debout Afrique, Blog, c'est quoi gdafrica, Actualités, Publications, Nos services, Nos domaines d'activité" name="keywords">
 		<link rel="canonical" href="https://gdafrica.com/blog" >
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -48,10 +50,25 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Nos dernières actualités</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<span class="image main"><img src="images/mblog.jpg" alt="Blog image illustration" /></span>
+							<div class="row gtr-150">
+								<div class="col-4 col-12-medium">
+									<span class="image fit"><img src="images/blog2.jpg" alt="Programme d’Émigration Consciencieuse" /></span>
+									<h2>GDA STUDY lance son Programme d’Émigration Consciencieuse</h2>
+									<p>ADécouvrez en quoi consiste ce programme et l'intérêt pour les africains.</p>
+									<ul class="actions special">
+									<li><a href="https://study.gdafrica.com/posts/programme-emigration-consciencieuse" class="button">Lire l'article</a></li>
+									</ul>
+								</div>
+								<div class="col-4 col-12-medium">
+									<span class="image fit"><img src="images/blog1.jpg" alt="Female students on campus" /></span>
+									<h2>Autumn 2025 Scholarships for African Female Students</h2>
+									<p>Get an overview of upcoming scholarships for African students to study abroad.</p>
+									<ul class="actions special">
+									<li><a href="https://study.gdafrica.com/posts/autumn-scholarships" class="button">Read the Article</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 
@@ -60,22 +77,24 @@
 					<div class="inner">
 						<section>
 							<h2>Nous Contacter</h2>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Votre nom" />
+								<form name="gda-contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Votre Nom" required/>
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Votre E-mail" required/>
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Votre Message" required></textarea>
+											<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+										</div>
+										<div data-netlify-recaptcha="true"></div>
 									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Votre E-mail" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Votre Message"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Envoyer" class="primary" /></li>
-								</ul>
-							</form>
+									<ul class="actions">
+										<li><input type="submit" value="Envoyer" class="primary" /></li>
+									</ul>
+								</form>
 						</section>
 						<section>
 							<h2>Suivez-nous</h2>
@@ -87,7 +106,8 @@
 							</ul>
 						</section>
 						<ul class="copyright">
-							<li>&copy; 2018-2024 Groupe Debout Afrique. Tous droits réservés</li><li>Design par HTML5 UP, Modifié par <a href="https://linkedin.com/in/william-auto-77182260">Wiljef </a></li>
+							<li>&copy; 2018-2024 <strong>Groupe Debout Afrique</strong>.Tous droits réservés</li>
+							<li>Template par HTML5 UP, Design et Adaptation par <a href="https://linkedin.com/in/william-auto-77182260">Wiljef</a></li>
 						</ul>
 					</div>
 				</footer>
